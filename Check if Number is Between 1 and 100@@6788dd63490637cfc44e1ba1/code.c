@@ -9,6 +9,5 @@ int main()
     else{
         printf("Out of Range");
     }
-    printf("%s", welcome());
     return 0;
 }
