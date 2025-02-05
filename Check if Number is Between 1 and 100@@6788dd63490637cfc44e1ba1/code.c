@@ -3,14 +3,9 @@
 int main() 
 {
     int i;
-    if(i<=100){
-        printf("In Range");
+    for(i=1; i<=100; i++){
+        printf("In Range")
     }
-    else if(i == 0){
-        printf("Out of Range");
-    }
-    else{
-        printf("Out of Range");
-    }
+    printf("%s", welcome());
     return 0;
 }
