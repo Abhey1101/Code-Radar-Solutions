@@ -4,7 +4,7 @@ int main()
 {
     int i;
     for(i=1; i<=100; i++){
-        printf("In Range")
+        printf("In Range");
     }
     
     return 0;
