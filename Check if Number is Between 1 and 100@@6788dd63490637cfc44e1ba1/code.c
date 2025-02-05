@@ -6,6 +6,6 @@ int main()
     for(i=1; i<=100; i++){
         printf("In Range")
     }
-    printf("%s", welcome());
+    
     return 0;
 }
