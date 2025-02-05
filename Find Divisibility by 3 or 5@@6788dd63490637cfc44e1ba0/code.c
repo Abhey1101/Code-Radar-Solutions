@@ -11,7 +11,7 @@ int main()
         printf("Divisible by 3");
     }
     else if(a%5 == 0&&a%3 != 0){
-        printf("Divisible by 3");
+        printf("Divisible by 5");
     }
     else{
         printf("Not divisible");
