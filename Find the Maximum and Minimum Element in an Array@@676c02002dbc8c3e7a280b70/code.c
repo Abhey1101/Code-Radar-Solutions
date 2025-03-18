@@ -34,17 +34,17 @@ int main() {
     
     // Loop through the array to find the max and min values
     for (i = 1; i < n; i++) {
-        if (arr[i] > max) {
-            max = arr[i];
-        }
         if (arr[i] < min) {
             min = arr[i];
+        }
+        if (arr[i] > max) {
+            max = arr[i];
         }
     }
     
     // Output the results
-    printf("%d", max);
-    printf("%d", min);
+    printf("%d ", max);
+    printf("%d ", min);
     
     return 0;
 }
