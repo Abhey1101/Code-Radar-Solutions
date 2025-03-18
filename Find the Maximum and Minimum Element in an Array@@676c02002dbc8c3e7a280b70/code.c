@@ -33,7 +33,7 @@ int main() {
     int max = arr[0];
     
     // Loop through the array to find the max and min values
-    for (i = n; i > 0; i++) {
+    for (i = 1; i < n; i++) {
         if (arr[i] < min) {
             min = arr[i];
         }
