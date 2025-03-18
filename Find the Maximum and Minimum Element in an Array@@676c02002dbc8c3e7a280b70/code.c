@@ -1,23 +1,10 @@
-// #include<stdio.h>
-// int main()
-// {
-//     int a[10], b;
-//     scanf("%d", &b);
-//     for(int i=0;i<b;i++){
-//         scanf("%d", &a[i]);
-//     }
-//     int max = arr[0];
-//     int min = arr[0];
-//     for(int i=1;i<)
-// }
-
 #include <stdio.h>
 
 int main() {
     int n, i;
     
     // Ask the user for the number of elements
-    // printf("Enter the number of elements in the array: ");
+    
     scanf("%d", &n);
     
     int arr[n];
@@ -29,22 +16,22 @@ int main() {
     }
     
     // Initialize max and min to the first element
-    int min = arr[0];
     int max = arr[0];
+    int min = arr[0];
     
     // Loop through the array to find the max and min values
     for (i = 1; i < n; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
         if (arr[i] < min) {
             min = arr[i];
         }
-        else{
-            max = arr[i];
-        }
     }
     
-    // Output the results
-    printf("%d ", max);
+    // Output the results with min first
     printf("%d ", min);
+    printf("%d ", max);
     
     return 0;
 }
