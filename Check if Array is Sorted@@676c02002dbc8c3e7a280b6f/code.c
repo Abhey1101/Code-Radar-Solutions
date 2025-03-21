@@ -13,7 +13,7 @@ int main()
                 a[i]=a[j];
                 a[j]=t;
             }
-                printf("Sorted");
+            printf("Sorted");
             else{
                 printf("Not Sorted");
             }
