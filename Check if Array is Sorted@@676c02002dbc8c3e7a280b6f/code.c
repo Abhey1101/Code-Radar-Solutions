@@ -14,8 +14,8 @@ int main()
                 // a[i]=a[j];
                 // a[j]=t;
                 i++;
-            }
             printf("Sorted");
+            }
             else{
                 printf("Not Sorted");
             }
