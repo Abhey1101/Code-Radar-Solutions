@@ -7,11 +7,16 @@ int main()
         scanf("%d", &arr[i]);
     }
     for(int i = 0; i<n; i++){
-        if(arr[i]%i==0){
-            prime++;
+        for(int j = 1; j<n; j++){
+            if(arr[i]%j==0){
+                prime++;
             }
             printf("%d", prime);
+            
         }
     }
+
+    }
+    return 0;
 
 }
