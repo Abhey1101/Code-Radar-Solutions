@@ -4,14 +4,14 @@ int main()
     int n, count;
     scanf("%d", &n);
     int a[n];
-    for(int i = 0; i<=n; i++){
+    for(int i = 0; i<n; i++){
         scanf("%d", &a[i]);
     }
     int max_count = 0;
     int majority = -1;
-    for(int i = 0; i<=n; i++){
+    for(int i = 0; i<n; i++){
         count = 0;
-        for(int j = 0; j<=n; j++){
+        for(int j = 0; j<n; j++){
             if(a[i]==a[j])
             count++;
         }
@@ -19,7 +19,7 @@ int main()
             max_count=count;
             majority = a[i];
         }
-        if(majority>n/2){
+        if(max_count>n/2){
             return majority;
         }
         else{
